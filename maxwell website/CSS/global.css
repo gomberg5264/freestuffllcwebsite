@@ -1,0 +1,154 @@
+/* * * START CSS TIPS * * *
+  * Great places to learn about CSS
+  * * https://css-tricks.com
+  * * https://www.w3schools.com/
+  * * https://www.google.com/
+  * List of available CSS properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+  * List of shorthand properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+  * Directory paths: https://css-tricks.com/quick-reminder-about-file-paths/
+  * To know which browsers support what property: https://caniuse.com/
+  * Alphabetizing your CSS properties makes for easier reading
+  * Indenting by 2 spaces helps for readability
+  * When developing with CSS use classes as much as possible leave id(s) for Javascript
+  * Give everything a meaningful name
+  * By default all elements are set to position:static: Default value. Elements render in order, as they appear in the document flow
+  * Single property items can be on the same line as enclosing bracket { } saves on whitespace while developing
+  * Whitespace is ignored, will not render in HTML file
+  * Every property should end with a semi colon
+  * Remember to compress your imagery: https://enviragallery.com/9-best-free-image-optimization-tools-for-image-compression/ no one want to wait and download a 1 MB image on a mobile device
+  * Fonts - web safe fonts will give you the most speed when someone is trying to view your site at an airport, museum, in a canyon - somewhere there is a slow connection, not everyone travels at the same speed
+ * * * END CSS TIPS * * */
+
+*{
+box-sizing: border-box;
+}
+
+html, body{
+height: 100%;
+margin: 0;
+}
+.container{
+padding: 0;
+min-height: 100;
+
+margin-top: 0px;
+margin-bottom: -70px;
+margin-right: auto;
+margin-left: auto;
+
+
+}
+
+img {
+  width: 30%
+  height: auto
+}
+
+header {
+background-color: rgb(219, 0, 0);
+}
+
+header div {
+padding-top: 30px;
+padding-right: 0;
+padding-bottom: 30px;
+padding-left: 0;
+
+margin-top: 0;
+margin-bottom: 0;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.main-logo {
+color: lightblue;
+background-color: blue;
+font-family: 'arial blue', arial, helvetica, sans-serif;
+
+Font-size: 6vh; /*vh = 1% of the viewport height*/
+
+margin-left: 5%;
+text-decoration: non;
+postion: relative;
+
+}
+
+.page-title {
+color: lightblue;
+font-family: 'Cambria', times, serif;
+font-size: 5vh;
+padding-left: 1%;
+postion: relative;
+
+
+}
+
+section{
+background-image: url("C:\\Users\\gombe\\Desktop\\CodaKid Web Dev Project Folder\\projects\\maxwell website\\Images\\maxwell.gif");
+
+background-position: center center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+min-height: 800px;
+padding-top: 50px;
+
+}
+.content{
+  background-color: rgba(232, 233, 235, 0.85);
+
+  margin: 0 auto; /*using shorthand*/
+  min-height: 700px;
+  padding: 50px;
+  width: 80%;
+}
+
+
+footer {
+position: relative;
+margin: 0 auto;
+width: 80%;
+height: 70px;
+}
+
+footer div{
+  position: absolute;
+  right: 0;
+  width: 112px;
+  z-index: 1;
+}
+
+
+.youtube-icon{
+  background-image: url("..\\Images\\256px-Youtube_icon.svg.png");
+}
+
+.facebook-icon{
+  background-image: url("..\\Facebook.png")
+}
+
+footer div a{
+  background-size: 100% 100%; /*using shorthand property*/
+  display: inline-block;
+  height: 25px;
+  overflow: hidden; /*Property specifices what happens if content overflows*/
+  text-indent: 101%;
+  width: 25px;
+}
+
+nav{
+left: 25px;
+position: relative;
+top: 10px;
+margin: 0 auto;
+width: 80%;
+}
+
+nav a {
+  color: white;
+  font-family: 'arial black' arail, sans-serif;
+  padding: 0.5vh;
+  text-decoration: none;
+
+  background-color: black;
+}
