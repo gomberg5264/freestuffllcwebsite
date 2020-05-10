@@ -85,7 +85,7 @@ postion: relative;
 }
 
 section{
-background-image: url("C:\\Users\\gombe\\Desktop\\CodaKid Web Dev Project Folder\\projects\\maxwell website\\Images\\maxwell.gif");
+background-image: url("..//Images\\maxwell.gif");
 
 background-position: center center;
 background-size: 100% 100%;
