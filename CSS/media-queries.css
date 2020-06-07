@@ -1,35 +1,35 @@
-/* CSS Breakpoints */
-/* Phone */
-@media only screen and (max-width : 600px{
-	header{
-		background-color: black;
+	.content {
+		padding: 10pxwidth: 100%;
+		min-height: 400px;
 	}
-	header div,section nav,footer,.content[]width: 100%;
-	padding: 0;
-	section {
+	footer div {
+		postition: relative;
+		margin: 0 auto;
+	}
+	iframe {
+		height: auto;
+		width: auto;
+	}tion {
 		padding: 0;
 	}
 	section nav {
 		left: 0;
 		top: 0;
 	}
-	header div{
+	header div {
 		padding: 10px;
 		text-align: center;
 	}
-	nav a{
+	nav a {
 		display: block;
 		min-height: 550px;
 	}
-	.content{
+	.content {
 		padding: 10pxwidth: 100%;
 		min-height: 400px;
 	}
-	footer div{
+	footer div {
 		postition: relative;
 		margin: 0 auto;
 	}
-	iframe{
-		height: auto;
-		width: auto;
-	}
+	iframe {
